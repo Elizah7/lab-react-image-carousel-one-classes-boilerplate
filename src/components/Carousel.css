@@ -1,1 +1,59 @@
-/* write your carousel css in this file */
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.arrow-btn {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.image-container {
+  position: absolute;
+}
+
+img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+}
+
+.image-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Include padding in the box size */
+}
+
+.image{
+  position: relative;
+}
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 47%;
+  top: 10%;
+  color: white;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  position: absolute;
+  left: 40%;
+  top: 70%;
+  color: white;
+}
